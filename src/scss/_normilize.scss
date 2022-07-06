@@ -1,0 +1,19 @@
+body {
+  font-family: "NotoSans";
+  background-color: $background;
+}
+
+h1 {
+  margin: 0;
+  color: $background;
+  @extend %h1;
+}
+
+a {
+  color: $background;
+  text-decoration: none;
+}
+
+header, main, footer {
+  padding: 0 100px;
+}

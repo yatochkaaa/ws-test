@@ -1,0 +1,57 @@
+@import './bootstrap/bootstrap.scss';
+@import './_vars.scss';
+@import './_fonts.scss';
+@import './_typography.scss';
+@import './_normilize.scss';
+
+.header {
+  background-image: url(../images/main.jpg);
+  background-size: cover;
+  height: 686px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 96px;
+
+  &__title {
+    margin-bottom: 32px;
+  }
+
+  &__description {
+    @extend %forms;
+    color: $background;
+    margin-bottom: 72px;
+  }
+
+  &__description-item {
+    padding-right: 20px;
+  }
+
+  &__button {
+    border-radius: $button-border-radius;
+  }
+}
+
+.navbar {
+  margin-bottom: 118px;
+  padding: 0;
+  height: 72px;
+
+  &__actions .navbar__item {
+    margin-right: 40px;
+    @extend %forms;
+    transition: $transition-button;
+  }
+
+  &__social .navbar__item:not(:last-child) {
+    margin-right: 28px;
+  }
+}
+
+.button {
+  width: 296px;
+  height: 56px;
+  border: 2px solid $background;
+  border-radius: $button-border-radius;
+  color: $background;
+  background: none;
+}
