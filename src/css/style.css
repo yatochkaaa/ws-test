@@ -10724,13 +10724,24 @@ textarea.form-control-lg {
 }
 @font-face {
   font-family: "NotoSans";
-  src: url(../fonts/NotoSans/NotoSans-Regular.ttf);
+  src: url(../fonts/NotoSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
 }
 h1, .h1 {
   font-family: "NotoSans";
   font-size: 50px;
   font-weight: 700;
   line-height: 68px;
+}
+
+h2, .h2 {
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 75px;
 }
 
 .navbar__actions .navbar__item, .header__description {
@@ -10750,6 +10761,13 @@ h1, .h1 {
   color: #f8f8f8;
 }
 
+h2, .h2 {
+  margin: 0;
+  color: #aeaeae;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 a {
   color: #f8f8f8;
   text-decoration: none;
@@ -10765,7 +10783,9 @@ header, main, footer {
   height: 686px;
   width: 100%;
   background-repeat: no-repeat;
-  margin-bottom: 96px;
+}
+.header__navbar {
+  margin-bottom: 118px;
 }
 .header__title {
   margin-bottom: 32px;
@@ -10782,7 +10802,6 @@ header, main, footer {
 }
 
 .navbar {
-  margin-bottom: 118px;
   padding: 0;
   height: 72px;
 }
@@ -10801,6 +10820,17 @@ header, main, footer {
   border-radius: 15px;
   color: #f8f8f8;
   background: none;
+}
+
+.main {
+  padding-top: 96px;
+}
+
+.footer {
+  background-color: #000000;
+}
+.footer__navbar {
+  height: 121px;
 }
 
 /*# sourceMappingURL=style.css.map */

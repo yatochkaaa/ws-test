@@ -10,7 +10,10 @@
   height: 686px;
   width: 100%;
   background-repeat: no-repeat;
-  margin-bottom: 96px;
+
+  &__navbar {
+    margin-bottom: 118px;
+  }
 
   &__title {
     margin-bottom: 32px;
@@ -32,7 +35,6 @@
 }
 
 .navbar {
-  margin-bottom: 118px;
   padding: 0;
   height: 72px;
 
@@ -54,4 +56,16 @@
   border-radius: $button-border-radius;
   color: $background;
   background: none;
+}
+
+.main {
+  padding-top: 96px;
+}
+
+.footer {
+  background-color: $text-color;
+
+  &__navbar {
+    height: 121px;
+  }
 }

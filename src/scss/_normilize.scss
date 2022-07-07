@@ -9,6 +9,14 @@ h1 {
   @extend %h1;
 }
 
+h2 {
+  margin: 0;
+  color: $h2-option;
+  text-transform: uppercase;
+  text-align: center;
+  @extend %h2;
+}
+
 a {
   color: $background;
   text-decoration: none;
